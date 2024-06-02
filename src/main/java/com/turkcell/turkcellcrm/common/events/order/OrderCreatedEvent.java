@@ -10,9 +10,10 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderCreatedEvent {
+
     private double totalPrice ;
     private int addressId;
     private int accountId;
-    private List<OrderItem> orderItemList;
+    private List<OrderItemDto> orderItemDto;
     private int customerId;
 }

@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CustomerCreatedEvent {
+
     private String nationalityNumber;
     private int customerId;
     private String accountAccountNumber;
